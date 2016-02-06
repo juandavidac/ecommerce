@@ -1,0 +1,68 @@
+.navbar-inverse {
+  border-radius: 0px;
+  padding-right: 30px;
+  padding-left: 20px;
+}
+
+#thumbnail {
+  margin-top: 25px;
+}
+
+.input-group {
+  margin-bottom: 25px;
+}
+
+#main {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+#description, #comments {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+@media (max-width: 1000px ){
+  .thumbnail, .btn-primary, .btn-default {
+    font-size: 12px;
+  }
+  .navbar-inverse {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  span #searchi {
+    padding: 3px;
+  }
+}
+
+
+@media (max-width: 768px ){
+  .thumbnail, .btn-primary, .btn-default {
+    font-size: 12px;
+  }
+  .btn-primary, .btn-default {
+    padding: 5px;
+  }
+  .navbar-inverse {
+    padding-right: 15px;
+    padding-left: 20px;
+  }
+  span #searchi {
+    padding: 5px;
+  }
+
+}
+
+@media (max-width: 400px ){
+  .thumbnail, .hthumbnail, .btn-primary, .btn-default {
+    font-size: 8px;
+  }
+  .btn-primary, .btn-default {
+    padding: 2px;
+  }
+  .navbar-inverse {
+    padding-right: 5px;
+    padding-left: 10px;
+  }
+}
